@@ -1,0 +1,12 @@
+export const NAME = /^[A-Za-zƏəİıÖöÜüÇçŞşĞğ' -]{2,40}$/;
+export const EMAIL = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
+export const PHONE = /^\+994[ -]?\d{2}[ -]?\d{3}[ -]?\d{2}[ -]?\d{2}$/;
+export const URL_RE = /^(https?:\/\/)?([\w-]+\.)+[a-z]{2,}(\/\S*)?$/i;
+export const YEAR = /^(19|20)\d{2}$/;
+export const YEAR_OR_NOW = /^((19|20)\d{2}|indi)$/i;
+export const LIST = /^\s*[^,]+(,\s*[^,]+)*\s*$/;
+export const TEXT2 = /^[\s\S]{2,}$/;
+export const TEXT10 = /^[\s\S]{10,}$/;
+export const TEXT20 = /^[\s\S]{20,}$/;
+export const DATE = /^\d{4}-\d{2}-\d{2}$/;
+export const SELECTED = /^.+$/;

@@ -1,0 +1,46 @@
+.stepper {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.track {
+  position: absolute;
+  top: 50%;
+  left: 16px;
+  right: 16px;
+  height: 4px;
+  background: var(--line);
+  transform: translateY(-50%);
+  border-radius: 2px;
+}
+
+.fill {
+  height: 100%;
+  background: var(--accent);
+  border-radius: 2px;
+  transition: width 0.4s ease;
+}
+
+.node {
+  position: relative;
+  z-index: 1;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: var(--card);
+  border: 2px solid var(--line);
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: var(--muted);
+  transition: 0.3s;
+}
+
+.on {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}

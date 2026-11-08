@@ -1,0 +1,49 @@
+.layout {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 20px;
+  max-width: 1150px;
+  margin: 0 auto;
+  align-items: start;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 24px;
+}
+
+.hint {
+  color: var(--muted);
+  text-align: center;
+  padding: 40px 0;
+  margin: 0;
+}
+
+.pdf {
+  width: 100%;
+  margin-top: 16px;
+  padding: 11px;
+  border-radius: 10px;
+  border: 1px solid var(--accent);
+  background: var(--accent);
+  color: #fff;
+  font-weight: 600;
+}
+
+.pdf:disabled {
+  opacity: 0.5;
+}
+
+@media (max-width: 900px) {
+  .layout {
+    grid-template-columns: 1fr;
+  }
+}

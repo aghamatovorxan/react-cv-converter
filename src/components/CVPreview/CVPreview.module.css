@@ -1,0 +1,56 @@
+.cv {
+  background: #fff;
+  color: #1a1a1a;
+  padding: 28px;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.cv h3 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.cv h4 {
+  margin: 16px 0 5px;
+  padding-bottom: 3px;
+  border-bottom: 1px solid #ddd;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #6d28d9;
+}
+
+.cv p {
+  margin: 2px 0;
+  white-space: pre-wrap;
+}
+
+.head {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+}
+
+.photo {
+  width: 110px;
+  height: 110px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.contact {
+  margin-top: 3px;
+  color: #555;
+}
+
+.chip {
+  display: inline-block;
+  margin: 0 6px 6px 0;
+  padding: 2px 10px;
+  border-radius: 99px;
+  background: #ede9fe;
+  color: #4c1d95;
+}

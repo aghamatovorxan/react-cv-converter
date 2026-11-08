@@ -1,0 +1,51 @@
+.card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 24px;
+}
+
+.title {
+  margin: 0 0 12px;
+  font-size: 1.2rem;
+}
+
+.wrap {
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.82rem;
+}
+
+.table th,
+.table td {
+  text-align: left;
+  padding: 7px 6px;
+  border-bottom: 1px solid var(--line);
+}
+
+.active {
+  background: var(--bg);
+}
+
+.btns {
+  white-space: nowrap;
+}
+
+.btns button {
+  padding: 5px 9px;
+  margin-right: 4px;
+  font-size: 0.78rem;
+  border-radius: 8px;
+  border: 1px solid var(--line);
+  background: transparent;
+  color: var(--text);
+}
+
+.btns .del {
+  color: var(--err);
+  border-color: var(--err);
+}
