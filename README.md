@@ -1,24 +1,13 @@
-# CV Generator
+# CV Generator & Convert PDF
 
-React + Vite + Formik + Yup (regex) + CSS Modules.
+React + Vite + Formik + Regex + CSS Modules.
 
-## İşə salmaq
+- Form (progress bar): şəxsi məlumat, bacarıqlar, veb, təhsil, təcrübə, ve digər.
+- Formik + Regex validasiya,
+- Foto (JPG/PNG/WebP, maks. 2MB),
+- CV-cədvəli: Göstər / Sil (save localStorage),
+- PDF yükləmə (html2canvas + jsPDF).
 
-```bash
-npm install
-npm run dev
-```
+Prewiew:
+<img width="1160" height="600" alt="Снимок экрана (42)" src="https://github.com/user-attachments/assets/11b21bae-8656-421c-897b-8a5b4f348b9b" />
 
-## Funksiyalar
-- 6 mərhələli form (progress bar): şəxsi məlumat, bacarıqlar, veb, təhsil, təcrübə, digər
-- Formik + Yup ilə regex validasiya (vacib olmayan sahələr də doldurulsa yoxlanır)
-- Foto əlavə etmə (JPG/PNG/WebP, maks. 2MB)
-- Form solda, canlı CV nəticəsi sağda
-- Yaradılmış CV-lər cədvəldə: Göstər / Sil (localStorage-də saxlanır)
-- PDF yükləmə (html2canvas + jsPDF)
-
-## Struktur
-- `src/utils/patterns.js` – regex-lər
-- `src/utils/steps.js` – mərhələlər və sahələr
-- `src/utils/validation.js` – Yup schema
-- `src/components/` – Stepper, Field, CVForm, CVPreview, CVTable
